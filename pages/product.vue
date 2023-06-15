@@ -13,7 +13,7 @@ useHead({
 <template>
   <div class="container">
     <div class="image-container">
-      <img src="../assets/favicon.svg" class="image" alt="Vue logo" />
+      <img src="../assets/favicon.svg" class="image" alt="Payments Hub Developer Portal logo" />
     </div>
     <div class="description-container">
       <div class="description">
@@ -61,7 +61,7 @@ useHead({
   padding: 1.5rem;
   will-change: filter;
   transition: filter 300ms;
-  height: 100%;
+  height: 30%;
   box-sizing: border-box;
   object-fit: contain;
 }
