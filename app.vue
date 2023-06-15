@@ -1,7 +1,13 @@
 <template><NuxtPage /></template>
 <style>
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Figtree";
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -9,8 +15,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  color: #213547;
-  background-color: #ffffff;
+  color: #9a9fa2;
+  background-color: #222529;
 }
 body {
   margin: 0;
@@ -36,7 +42,7 @@ button {
   font-size: 1rem;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #16a092;
   color: #ffffff;
   cursor: pointer;
 }

@@ -2,10 +2,10 @@
 import PaymentsModal from "@/components/payment-modal.vue";
 
 const paymentModalOpened = ref(false);
-const amount = '0.01';
+const amount = "0.01";
 
 useHead({
-  title: "Awesome Vue Sticker",
+  title: "Payments Hub Developer Portal | iFrame JS SDK Sample Store",
   script: [{ src: "https://sdk.paymentshub.com/pay-now.min.js" }],
 });
 </script>
@@ -13,27 +13,17 @@ useHead({
 <template>
   <div class="container">
     <div class="image-container">
-      <img src="../assets/vue.svg" class="image" alt="Vue logo" />
+      <img src="../assets/favicon.svg" class="image" alt="Vue logo" />
     </div>
     <div class="description-container">
       <div class="description">
-        <h1 class="heading">Awesome Vue Sticker</h1>
+        <h1 class="heading">Payments Hub Developer Portal Sticker</h1>
         <h2 class="heading">${{ amount }} USD</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat
-          magna enim, vel blandit lacus elementum quis. Etiam elementum ligula
-          venenatis consequat gravida. Phasellus orci nibh, elementum sit amet
-          pharetra in, elementum sit amet ipsum.
-        </p>
         <button @click="paymentModalOpened = true">Purchase</button>
       </div>
     </div>
   </div>
-  <PaymentsModal
-    :opened="paymentModalOpened"
-    :amount="amount"
-    @close-modal="paymentModalOpened = false"
-  />
+  <PaymentsModal :opened="paymentModalOpened" :amount="amount" @close-modal="paymentModalOpened = false" />
 </template>
 
 <style scoped>
