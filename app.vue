@@ -34,6 +34,7 @@ h2 {
   font-weight: 600;
   opacity: 0.8;
   line-height: 1.1;
+  margin-top: 1rem;
 }
 button {
   border-radius: 8px;
