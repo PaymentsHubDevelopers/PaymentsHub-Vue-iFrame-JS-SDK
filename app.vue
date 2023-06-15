@@ -28,6 +28,7 @@ body {
 h1 {
   font-size: 3.5rem;
   line-height: 1.1;
+  color: #ffffff;
 }
 h2 {
   font-size: 1.5rem;

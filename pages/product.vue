@@ -17,8 +17,8 @@ useHead({
     </div>
     <div class="description-container">
       <div class="description">
-        <h1 class="heading">Payments Hub Developer Portal Sticker</h1>
-        <h2 class="heading">${{ amount }} USD</h2>
+        <h1>Payments Hub Developer Portal Sticker</h1>
+        <h2>${{ amount }} USD</h2>
         <button @click="paymentModalOpened = true">Purchase</button>
       </div>
     </div>
@@ -49,9 +49,6 @@ useHead({
   flex-direction: column;
   align-items: center;
   text-align: start;
-}
-.heading {
-  margin: 0;
 }
 .description {
   max-width: 28rem;
