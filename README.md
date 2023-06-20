@@ -9,3 +9,7 @@ To get started, create a free [Payments Hub Developer Portal account](https://de
 ## Follow Along with the Tutorial
 
 When you're ready to start building your app, you can follow along with [this tutorial](https://developer.paymentshub.com/blog/embedded-payments-vue-app) for step-by-step instructions.
+
+## Completed App
+
+![](/assets/payments-hub-vue-iframe-js-sdk.png)
