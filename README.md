@@ -12,4 +12,10 @@ When you're ready to start building your app, you can follow along with [this tu
 
 ## Completed App
 
+Your completed ecommerce app will look similar to the following:
+
 ![](/assets/payments-hub-vue-iframe-js-sdk.png)
+
+Clicking the "Purchase" button will open a checkout form modal where customers can enter their payment information and place an order:
+
+![](/assets/payments-hub-vue-iframe-js-sdk-checkout-form.png)
