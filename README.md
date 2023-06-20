@@ -1,4 +1,4 @@
-# Embed Payments in a VueJS App
+# Securely Embed Payments in a VueJS App
 
 This is a JavaScript application that uses the Vue framework and Node.js to demonstrate an embedded payment solution with [Payments Hub's iFrame JavaScript SDK](https://developer.paymentshub.com/products/card-not-present/iframe-javascript-sdk). The full-stack code in this repository adds a simple payment form to a website, handling both the front-end and back-end aspects of the payment process.
 
